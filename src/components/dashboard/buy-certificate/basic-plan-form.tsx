@@ -68,13 +68,7 @@ const SERVER_SOFTWARE = [
   { code: "39", name: "Amazon Load Balancer" },
 ];
 
-const VALIDITY_PERIODS = [
-  { value: "365", label: "365 days (1 year)" },
-  { value: "730", label: "730 days (2 years)" },
-  { value: "1095", label: "1095 days (3 years)" },
-  { value: "1461", label: "1461 days (4 years)" },
-  { value: "1826", label: "1826 days (5 years)" },
-];
+
 
 const VALIDATION_METHODS = [
   "webmaster@",

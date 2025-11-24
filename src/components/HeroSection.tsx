@@ -1,12 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
-import { ArrowRight, Shield, Lock, Zap, Activity, Database, Code, Globe2, Cpu, Network } from "lucide-react";
+import { ArrowRight, Shield, Lock, Zap, Activity, Database } from "lucide-react";
 
 const HeroSection = () => {
   const [activeBlock, setActiveBlock] = useState(0);
   const [hashValue, setHashValue] = useState('0x7a4f...c2b9');
   const [verifications, setVerifications] = useState(10247832);
   const [networkNodes, setNetworkNodes] = useState(247);
-  const [encryptionProgress, setEncryptionProgress] = useState(0);
+  const [, setEncryptionProgress] = useState(0);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const particlesRef = useRef<Array<{
     x: number;
